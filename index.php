@@ -38,17 +38,17 @@
     <div class="container jumbotron p-3 mt-3">
         <form>
             <div class="row">
-                <div class="col-4">
-                    <input type="text" class="form-control" placeholder="Type register number here">
+                <div class="col-md-4">
+                    <input type="text" class="form-control mt-2" placeholder="Type register number here">
                 </div>
-                <div class="col-4">
-                    <input type="text" class="form-control" placeholder="Type full name here">
-                </div>
-                <div class="col-auto">
-                    <button type="submit" class="btn btn-primary">Download</button>
+                <div class="col-md-4">
+                    <input type="text" class="form-control mt-2" placeholder="Type full name here">
                 </div>
                 <div class="col-auto">
-                    <button type="submit" class="btn btn-primary">Print</button>
+                    <button type="submit" class="btn btn-primary mt-2">Download</button>
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mt-2">Print</button>
                 </div>
                 <br>
                 <p class="lead pl-4 pt-3 pb-0">Your register number and name will automatically get appended to the footer of each page.</p>
@@ -56,7 +56,7 @@
         </form>
     </div><!-- end of outer container -->
 
-    <div class="container col-7 mt-3 mb-5">
+    <div class="container col-xs-12 col-md-8 mt-3 mb-5">
 
     <h4 class="pb-2">List of experiments in Object Oriented Analysis and Design</h4>
     
