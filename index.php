@@ -161,7 +161,7 @@
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">
-        A Daniel Mark and Harrison Mathew Production 
+        A <a href="https://www.instagram.com/danielmarkd/" class="footer-links">Daniel Mark</a> and <a href="https://www.instagram.com/_hooo.x_/" class="footer-links">Harrison Mathew</a> Production 
         <br>
         <a href="https://danielmarkd.com" class="footer-links"> www.danielmarkd.com</a> <a href="https://instagram.com/pixellymedia" class="ml-2 footer-links">Pixelly</a>
     </div>
