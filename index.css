@@ -1,8 +1,8 @@
 .footer {
-    background: rgb(20,20,20);
-    color: #fff;;
+  background: #343a40 !important;
+  color: #fff;
 }
 
 .footer-links {
-    color: rgb(220,220,220);
+  color: rgb(220, 220, 220);
 }
