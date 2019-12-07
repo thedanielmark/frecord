@@ -36,19 +36,19 @@
 
     <!-- end of navbar -->
     <div class="container jumbotron p-3 mt-3">
-        <form>
+        <form action="process_request.php" method="post">
             <div class="row">
                 <div class="col-md-4">
-                    <input type="text" class="form-control mt-2" placeholder="Type register number here">
+                    <input type="text" class="form-control mt-2" name="regNo" id="regNo" placeholder="Type register number here">
                 </div>
                 <div class="col-md-4">
-                    <input type="text" class="form-control mt-2" placeholder="Type full name here">
+                    <input type="text" class="form-control mt-2" name="name" id="name" placeholder="Type full name here">
                 </div>
                 <div class="col-auto">
                     <button type="submit" class="btn btn-primary mt-2">Download</button>
                 </div>
                 <div class="col-auto">
-                    <button type="submit" class="btn btn-primary mt-2">Print</button>
+                    <button type="" class="btn btn-primary mt-2">Print</button>
                 </div>
                 <br>
                 <p class="lead pl-4 pt-3 pb-0">Your register number and name will automatically get appended to the footer of each page.</p>
