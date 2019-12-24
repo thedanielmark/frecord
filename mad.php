@@ -36,13 +36,13 @@
 
     <!-- end of navbar -->
     <div class="container jumbotron p-3 mt-md-3">
-        <form>
+        <form action="process_mad.php" method="post">
             <div class="row">
                 <div class="col-xs-12 col-md-4">
-                    <input type="text" class="form-control mt-2" placeholder="Type register number here">
+                    <input type="text" class="form-control mt-2" name="regNo" placeholder="Type register number here">
                 </div>
                 <div class="col-xs-12 col-md-4">
-                    <input type="text" class="form-control mt-2" placeholder="Type full name here">
+                    <input type="text" class="form-control mt-2" name="name" placeholder="Type full name here">
                 </div>
                 <div class="col-auto">
                     <button type="submit" class="btn btn-primary mt-2">Download</button>
@@ -50,9 +50,9 @@
                 <div class="col-auto">
                     <button type="submit" class="btn btn-primary mt-2">Print</button>
                 </div>
-                <br>
-                <p class="lead pl-4 pt-3 pb-0">Your register number and name will automatically get appended to the footer of each page.</p>
             </div>
+                <br>
+                 <p class="lead pl-4  pb-0"><h2>Important</h2>Your register number and name will not be added to the footer due to a technical limitation.</p>
         </form>
     </div><!-- end of outer container -->
 
@@ -81,7 +81,7 @@
         </li>
         <li class="list-group-item">
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck3" disabled>
                 <label class="form-check-label" for="defaultCheck3">
                   3. Write an application that draws basic graphical primitives on the screen.
                 </label>
@@ -90,7 +90,7 @@
 
         <li class="list-group-item">
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck4" disabled>
                 <label class="form-check-label" for="defaultCheck4">
                     4. Develop an application that makes use of databases.
                 </label>
@@ -99,7 +99,7 @@
 
         <li class="list-group-item">
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck5" disabled>
                 <label class="form-check-label" for="defaultCheck5">
                   5. Develop an application that makes use of Notification Manager
                 </label>
@@ -108,7 +108,7 @@
 
         <li class="list-group-item">
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck6" disabled>
                 <label class="form-check-label" for="defaultCheck6">
                   6. Implement an application that uses Multi-threading
                 </label>
@@ -117,7 +117,7 @@
 
         <li class="list-group-item">
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck7">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck7" disabled>
                 <label class="form-check-label" for="defaultCheck7">
                   7. Develop a native application that uses GPS location information
                 </label>
@@ -126,7 +126,7 @@
 
         <li class="list-group-item">
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck8" disabled>
                 <label class="form-check-label" for="defaultCheck8">
                   8. Implement an application that writes data to the SD card.
                 </label>
@@ -135,7 +135,7 @@
 
         <li class="list-group-item">
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck9">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck9" disabled>
                 <label class="form-check-label" for="defaultCheck9">
                   9. Implement an application that creates an alert upon receiving a message
                 </label>
@@ -144,7 +144,7 @@
 
         <li class="list-group-item">
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck10">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck10" disabled>
                 <label class="form-check-label" for="defaultCheck10">
                   10. Write a mobile application that makes use of RSS feed
                 </label>
@@ -152,7 +152,7 @@
         </li>
         <li class="list-group-item">
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck10">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck10" disabled>
                 <label class="form-check-label" for="defaultCheck11">
                   11. Develop a mobile application to send an email.
                 </label>
@@ -160,7 +160,7 @@
         </li>
         <li class="list-group-item">
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck10">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck10" disabled>
                 <label class="form-check-label" for="defaultCheck12">
                   12. Develop a Mobile application for simple needs (Mini Project)
                 </label>
